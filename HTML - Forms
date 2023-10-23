@@ -1,0 +1,35 @@
+<html dir="ltr" lang="en-us">
+  <head>
+    <title> Form Basics </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="space.css">
+  </head>
+
+  <body>
+  <main>
+
+    <form action="success.html" method="get">
+      <label for="name">Name</label>
+      <input name="name" id="name">
+      <label for="email">Email</label>
+      <input name="email" id="email"
+             type="email" required
+             
+       placeholder="me@example.com">
+      <label for="search"> Search</label>
+      <input id="search" name="search" type="search" placeholder="&#128269;">
+      <label for="phone">Phone Number </label>
+      <input id="phone" name="phone" type="tel" placeholder="123-456-7890">
+      <label for="textarea" > Text Area</label>
+      <input id="textarea" name="textarea" type="textarea"
+        cols="30" rows="15"></textarea>
+      <label for="color">Color</label>
+      <input id="color" name="color" type="color"> 
+      <label for="file">File</label>
+      <input id="file" name="file" type="file" accepts="image/*" multiple>
+      <button type="submit">Sign Up</button>
+    </form>
+  </main>  
+  </body>
+</html> 
